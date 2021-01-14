@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './style.css';
 
 
@@ -31,9 +31,9 @@ function App() {
       </div>
 
       <div id="controls">
-        <button data-action="load-dat">Load binary waveform data</button>
-        <button data-action="load-json">Load JSON waveform data</button>
-        <button data-action="generate">Generate using Web Audio API</button>
+        <button data-action="load-dat">Upload Track</button>
+        <button data-action="load-json">New Track</button>
+        <button data-action="generate">Save</button>
       </div>
 
     <script src="waveform-data.js"></script>
